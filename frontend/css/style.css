@@ -30,7 +30,7 @@ label {
     text-align: left;
 }
 
-.id-inputs {
+.form-card {
     width: 350px;
     margin: 20px auto 50px auto;
     padding: 20px 30px;
@@ -40,16 +40,6 @@ label {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
-.reg-section {
-    width: 350px;
-    margin: 50px auto;
-    padding: 20px 30px;
-
-    background-color: white;
-    border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-
-}
 
 input[type="text"],
 input[type="password"],
@@ -74,6 +64,10 @@ button {
     margin-top: 10px;
 }
 
+#registration-section {
+    margin-top: -45px;
+}
+
 a {
     color: #1a73e8;
     text-decoration: none;
@@ -84,10 +78,9 @@ a:hover {
     text-decoration: underline;
 }
 
-/* To hide the registration form */
-#registration-section {
+
+.hidden {
     display: none;
 }
-
 
 

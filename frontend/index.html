@@ -6,6 +6,7 @@
     <title>Competency Tracker</title>
     <link rel="stylesheet" href="css/style.css">
 </head>
+
 <body>
 
     <header>
@@ -18,8 +19,9 @@
             <p>Stay on top of your skills, let's sign you in.</p>
         </section>
 
-        <section id="badge-password-input">
-            <form id="login-form" class="id-inputs">
+        <!-- Log in section -->
+        <section id="login-section">
+            <form id="log-in" class="form-card">
                 <label for="bnumber">Badge Number:</label><br>
                 <input type="text" id="bnumber" name="bnumber" required><br>
          
@@ -28,12 +30,14 @@
                 <br>
                 <button type="submit">Log in</button><br>
                 <br>
+
+                <!-- Create password -->
                 <section class="first-time-login">
-                <p>First time? <a href="#">Create password</a></p>
+                <p>First time? <a href="#" id="create-password-link">Create password</a></p>
                 </section>
 
                 <section class="forgot-password">
-                <p><a href="#">Forgot password?</a></p>
+                <p><a href="#" id="forgot-password-link">Forgot password?</a></p>
                 </section>
 
             </form>
@@ -43,8 +47,9 @@
         <br>
 
         <!-- To set the password on first log in -->
-        <section id="registration-section" class="reg-section">
-            <form id="registration-form" class="reg">
+    
+        <section id="registration-section" class="hidden">
+            <form id="registration-form" class="form-card">
                 <label for="reg-badge-number">Badge Number:</label><br>
                 <input type="text" id="reg-badge-number" name="reg-badge-number" required><br>
 
@@ -56,10 +61,12 @@
 
                 <br>
                 <button type="submit">Set Password</button>
-                <p><a href="#">Back to login</a></p>
+                <p><a href="#" id="back-to-login-link">Back to login</a></p>
             </form>
         </section>
     </main>
     
+    <!-- JS login file -->
+    <script src="js/login.js"></script>
 </body>
 </html>
