@@ -4,14 +4,17 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Competency Tracker</title>
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
+
     <header>
         <h1>Competency Tracker</h1>
     </header>
 
     <main>
-        <section id="welcome-message">
+        <!-- Welcome message -->
+        <section id="welcome-message" class="welcome-message">
             <p>Stay on top of your skills, let's sign you in.</p>
         </section>
 
@@ -22,24 +25,25 @@
          
                 <label for="password">Password:</label><br>
                 <input type="password" id="password" name="password" required><br>
-                
                 <br>
+                <button type="submit">Log in</button><br>
+                <br>
+                <section class="first-time-login">
+                <p>First time? <a href="#">Create password</a></p>
+                </section>
 
-                <button type="submit">Log in</button>
+                <section class="forgot-password">
+                <p><a href="#">Forgot password?</a></p>
+                </section>
+
             </form>
         </section>
-            
-         <section id="first-time">
-            <p>First time? <a href="#">Create password</a></p>
-        </section>
-
-         <section id="forgot-password">
-            <p><a href="#">Forgot password?</a></p>
-        </section>
+    
 
         <br>
 
-        <section id="registration-section">
+        <!-- To set the password on first log in -->
+        <section id="registration-section" class="reg-section">
             <form id="registration-form" class="reg">
                 <label for="reg-badge-number">Badge Number:</label><br>
                 <input type="text" id="reg-badge-number" name="reg-badge-number" required><br>
@@ -51,7 +55,6 @@
                 <input type="password" id="confirm-password" name="confirm-password" required><br>
 
                 <br>
-
                 <button type="submit">Set Password</button>
                 <p><a href="#">Back to login</a></p>
             </form>
