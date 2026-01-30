@@ -21,7 +21,7 @@ backToLoginLink.addEventListener("click", (event) => {
     registrationSection.classList.add("hidden");
 });
 
-/* Listen fpr click on the forgot password link */
+/* Listen for click on the forgot password link */
 forgotPasswordLink.addEventListener("click", (event) => {
     event.preventDefault();
 
