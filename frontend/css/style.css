@@ -84,5 +84,10 @@ a:hover {
     text-decoration: underline;
 }
 
+/* To hide the registration form */
+#registration-section {
+    display: none;
+}
+
 
 
