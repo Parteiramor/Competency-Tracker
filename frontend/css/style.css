@@ -31,6 +31,7 @@ label {
 }
 
 .form-card {
+ 
     width: 350px;
     margin: 20px auto 50px auto;
     padding: 20px 30px;
@@ -127,9 +128,16 @@ header nav ul.dashboard-nav a:hover {
 
 main {
     width: 80%;
-    margin: auto 0;
+    margin: 30px auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
 }
 
-section.dashboard {
-    flex: 1 1 calc(50% - 20px);
+main section {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
 }
+
