@@ -83,4 +83,53 @@ a:hover {
     display: none;
 }
 
+body.dashboard {
+    width: 100%;
+    margin: 0;
+}
 
+ header nav {
+    background-color: #e8f0f7;
+    padding: 10px 0;
+    border-radius: 8px;
+    margin-top: 20px;
+ }
+
+header nav ul.dashboard-nav {
+    list-style: none;
+    display: flex;
+    gap: 25px;
+    justify-content: center;
+}
+
+header nav ul.dashboard-nav a {
+    color:#2c5f7c;
+    text-decoration: none;
+    font-weight: lighter;
+    padding: 8px 16px;
+    border-radius: 4px;
+    transition: all 0.3s ease;
+}
+
+header nav ul.dashboard-nav a:hover {
+    text-decoration: none;
+    background-color: lightsteelblue;
+    color: white;
+
+    
+}
+
+.dashboard-header {
+    text-align: center;
+    padding: 20px;
+    background-color:azure;
+}
+
+main {
+    width: 80%;
+    margin: auto 0;
+}
+
+section.dashboard {
+    flex: 1 1 calc(50% - 20px);
+}
