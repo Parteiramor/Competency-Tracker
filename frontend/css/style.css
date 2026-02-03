@@ -141,3 +141,19 @@ main section {
     padding: 20px;
 }
 
+.alerts {
+    background-color: #ffe6e6;
+    border-left: 4px solid #d9534f;
+}
+
+.alerts a {
+    font-weight: bold;
+    color: #d9534f ;
+}
+
+.alerts:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+    transition: all 0.3s ease;
+}
+
