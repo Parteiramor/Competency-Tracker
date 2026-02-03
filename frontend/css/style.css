@@ -146,9 +146,13 @@ main section {
     border-left: 4px solid #d9534f;
 }
 
+.alerts p {
+    padding: 10px;
+}
+
 .alerts a {
     font-weight: bold;
-    color: #d9534f ;
+    color: #d9534f;
 }
 
 .alerts:hover {
@@ -156,4 +160,73 @@ main section {
     box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
     transition: all 0.3s ease;
 }
+
+.competency-summary {
+    background-color:lightcyan;
+    border-right: 4px solid;
+    
+}
+
+.competency-summary p {
+    color: chocolate;
+    padding: 10px;
+    font-weight: bold;
+}
+
+.competency-summary:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+    transition: all 0.3s ease;
+}
+
+.contract-renewal {
+    background-color: lightyellow;
+    border-left: 4px solid #d9534f ;
+}
+
+.contract-renewal p {
+    padding-top: 25px;
+    color: #d9534f;
+    font-weight: bold;
+}
+
+.contract-renewal:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+    transition: all 0.3s ease;
+}
+
+.quick-actions {
+    border-right: 4px solid #333;
+}
+
+.quick-actions:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+    transition: all 0.3s ease;
+}
+
+.quick-action-list {
+    list-style: none;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.quick-action-list a {
+    display: inline-block;
+    padding: 10px 14px;
+    border-radius: 6px;
+    text-decoration: none;
+    color: chocolate;
+}
+
+.quick-action-list a:hover {
+    text-decoration: underline;
+}
+
+
+   
+
+
+
 
