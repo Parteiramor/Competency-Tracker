@@ -163,7 +163,7 @@ main section {
 
 .competency-summary {
     background-color:lightcyan;
-    border-right: 4px solid;
+    border-right: 4px solid chocolate;
     
 }
 
@@ -224,6 +224,9 @@ main section {
     text-decoration: underline;
 }
 
+.quick-action-list li {
+    margin-bottom: 8px;
+}
 
    
 
