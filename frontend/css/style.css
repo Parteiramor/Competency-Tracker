@@ -257,6 +257,18 @@ tr:hover {
     background-color: #b7c9da;
 }
 
+ tr:hover .status-valid {
+    background-color: #c3e6cb;
+ }
+
+ tr:hover .status-expiring {
+    background-color: #ffeaa7;
+ }
+
+ tr:hover .status-expired {
+    background-color: #f5c6cb;
+ }
+
 th {
     padding-top: 12px;
     padding-bottom: 12px;
@@ -264,15 +276,21 @@ th {
 }
 
 .status-valid {
-    background-color: rgb(114, 236, 114);
+    background-color: #d4edda;
+    color: #155724;
+    font-weight: bold;
 }
 
-.status.expiring {
-    background-color: yellow;
+.status-expiring {
+    background-color: #fff3cd;
+    color: #856404;
+    font-weight: bold;
 }
 
 .status-expired {
-    background-color: red;
+    background-color: #f8d7da;
+    color: #721c24;
+    font-weight: bold;
 }
 
 
