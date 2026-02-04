@@ -230,11 +230,52 @@ body.dashboard .quick-actions {
     text-decoration: none;
 }
 
-
 .quick-actions nav ul li a::before {
     content: "→ ";
     margin-right: 8px;
 }
+
+body.competencies {
+    background-color: white;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 10px;
+}
+
+tr:nth-child(even) {
+    background-color:#d9e9f4;
+}
+
+tr:hover {
+    background-color: #b7c9da;
+}
+
+th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    background-color:  #7593af;
+}
+
+.status-valid {
+    background-color: rgb(114, 236, 114);
+}
+
+.status.expiring {
+    background-color: yellow;
+}
+
+.status-expired {
+    background-color: red;
+}
+
+
 
 
 
