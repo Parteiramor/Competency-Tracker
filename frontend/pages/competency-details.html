@@ -25,24 +25,39 @@
     </header> 
 
     <main>
-        <section class="competency-name">
-            <h3>Basic Life Support</h3>
-            <p>Renewal Period:</p>
-            <p>Renews every 2 years</p>
+        <h2>Competency Details</h2>
+        <!-- Competency Header -->
+        <section class="competency-details-card">
 
-            <form class="competency-card">
-                <label for="last-completed-date">Last Completed Date:</label>
-                <input type="date" id="last-completed-date" name="last-completed-date">
-                <input type="file" id="my-competency" name="my-competency">
+            <div class="detail-header">
+                 <h3>Basic Life Support</h3>
+                 <span class="status-badge status-valid">Valid</span>
+            </div>
+
+            <!-- Info Display -->
+            <div class="detail-info">
+                   <p><strong>Renewal Period:</strong> Every 2 years</p>
+                   <p><strong>Expiration Date:</strong> 01/01/27 </p>
+            </div>
+
+            <!-- Editable Form -->
+            <form class="competency-form">
+                <div class="form-group">
+                     <label for="last-completed-date">Last Completed Date:</label>
+                     <input type="date" id="last-completed-date" name="last-completed-date">
+                </div>
+
+                <div class="form-group">
+                    <label for="competency-file">Upload Proof:</label>
+                    <input type="file" id="competency-file" name="competency-file" accept=".pdf, .jpg, .png">
+                 </div>
+
+                 <div class="form-actions">
+                     <button type="submit" class="btn-primary">Save Changes</button>
+                     <button type="button" class="btn-secondary">Back To List</button>
+                 </div>
             </form>
-            
-            <p>Expiration Date: [01/01/26]</p>
-                <h4>Status <span class="badge">Valid</span></h4>
-
-                <button type="submit">Save Changes</button><br>
-                <button type="submit">Back To List</button><br>
         </section>
-
     </main>
 </body>
 </html>
