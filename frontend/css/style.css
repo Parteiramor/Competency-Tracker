@@ -235,9 +235,24 @@ body.dashboard .quick-actions {
     margin-right: 8px;
 }
 
-body.competencies {
+
+body.competencies main {
+    width: 90%;
+    max-width: 1200px;
+    margin: 30px auto;
+    padding: 20px;
     background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+
 }
+
+ body.competencies main h2 {
+    color: #2c5f7c;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+    border-bottom: 2px solid #e8f0f7;
+ }
 
 table {
     border-collapse: collapse;
@@ -292,6 +307,30 @@ th {
     color: #721c24;
     font-weight: bold;
 }
+
+.action-btn {
+    padding: 6px 12px;
+    background-color: #4a7c9e;
+    color: white;
+    border: none;
+    border-radius: 4px; 
+    cursor: pointer;
+    font-size: 14px;
+    transition: background-color 0.3s ease;
+}
+
+.action-btn:hover {
+    background-color: #2c5f7c;
+}
+
+.action-renew {
+    background-color: #f0ad4e;
+}
+
+.action-renew:hover {
+    background-color: #ec971f;
+}
+
 
 
 
