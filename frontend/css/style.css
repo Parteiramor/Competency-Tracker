@@ -352,9 +352,109 @@ th {
     background-color: #ec971f;
 }
 
+body.competency-details main {
+    width: 90%;
+    max-width: 800px;
+    margin: 30px auto;
+    padding: 20px;
+}
 
+body.competency-details main h2 {
+    color: #2c5f7c;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+    border-bottom: 2px solid #e8f0f7;
+}
 
+.competency-details-card {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+}
 
+.detail-header h3 {
+    color: #333;
+    margin: 0;
+}
+
+.status-badge {
+    padding: 6px 12px;
+    border-radius: 4px;
+    font-weight: bold;  
+    font-size: 14px;
+}
+
+.detail-info {
+    background-color: #f8f9fa;
+    padding: 15px;
+    border-radius: 4px;
+    margin-bottom: 25px;
+}
+
+.detail-info p {
+    margin: 8px 0;
+    color: #555;
+}
+
+.competency-form .form-group {
+    margin-bottom: 20px;
+}
+
+.competency-form label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #333;
+}
+
+.competency-form input[type="date"],
+.competency-form input[type="file"],
+.competency-form textarea {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-family: inherit;
+}
+
+.competency-form textarea {
+    resize: vertical;
+}
+
+.form-actions {
+    display: flex;
+    gap: 10px;
+    margin-top: 25px;
+}
+
+.btn-primary,
+.btn-secondary {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.btn-primary {
+    background-color: #4a7c9e;
+    color: white;
+}
+
+.btn-primary:hover {
+    background-color: #2c5f7c;
+}
+
+.btn-secondary {
+    background-color: #6c757d;
+    color: white;
+}
+
+.btn-secondary:hover {
+    background-color: #5a6268;
+}
 
 
 
