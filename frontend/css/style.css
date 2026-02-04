@@ -24,6 +24,18 @@ body {
     margin: 0 auto;
 }
 
+body.dashboard,
+body.competencies {
+    width: 100%;
+    margin: 0;
+}
+
+.dashboard-header {
+    text-align: center;
+    padding: 20px;
+    background-color:azure;
+}
+
 label {
     font-weight: bold;
     color: #333;
@@ -84,10 +96,7 @@ a:hover {
     display: none;
 }
 
-body.dashboard {
-    width: 100%;
-    margin: 0;
-}
+
 
  header nav {
     background-color: #e8f0f7;
@@ -115,18 +124,10 @@ header nav ul.dashboard-nav a {
 header nav ul.dashboard-nav a:hover {
     text-decoration: none;
     background-color: lightsteelblue;
-    color: white;
-
-    
+    color: white; 
 }
 
-.dashboard-header {
-    text-align: center;
-    padding: 20px;
-    background-color:azure;
-}
-
-main {
+body.dashboard main {
     width: 80%;
     margin: 30px auto;
     display: grid;
@@ -134,7 +135,8 @@ main {
     gap: 20px;
 }
 
-main section {
+body.dashboard main section,
+body.competencies main section {
     background-color: white;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -143,12 +145,14 @@ main section {
     transition: all 0.3s ease;
 }
 
-main section:hover {
+body.dashboard main section:hover,
+body.competencies main section:hover {
     transform: translateY(-2px);
     box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
 }
 
-.alerts {
+
+body.dashboard .alerts {
     background-color: #fff5f5;
     border-left-color: #d9534f;
 }
@@ -166,16 +170,10 @@ main section:hover {
     color: #d9534f;
 }
 
-.alerts:hover {
-    transform: translateY(-2px);
-    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
-    transition: all 0.3s ease;
-}
 
-.competency-summary {
+body.dashboard .competency-summary {
     background-color: #f0f8ff;
-    border-left-color: #4a7c9e;
-    
+    border-left-color: #4a7c9e;  
 }
 
 .competency-summary h3 {
@@ -188,13 +186,7 @@ main section:hover {
    
 }
 
-.competency-summary:hover {
-    transform: translateY(-2px);
-    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
-    transition: all 0.3s ease;
-}
-
-.contract-renewal {
+body.dashboard .contract-renewal {
     background-color: #fff9f0;
     border-left-color: #f0ad4e;
 }
@@ -209,13 +201,8 @@ main section:hover {
     font-weight: bold;
 }
 
-.contract-renewal:hover {
-    transform: translateY(-2px);
-    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
-    transition: all 0.3s ease;
-}
 
-.quick-actions {
+body.dashboard .quick-actions {
     border-left-color: #4a7c9e;
 }
 
@@ -243,21 +230,12 @@ main section:hover {
     text-decoration: none;
 }
 
-.quick-actions nav ul li a:hover {
-    color: #2c5f7c;
-    text-decoration: underline;
-}
 
 .quick-actions nav ul li a::before {
     content: "→ ";
     margin-right: 8px;
 }
 
-.quick-actions:hover {
-    transform: translateY(-2px);
-    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
-    transition: all 0.3s ease;
-}
 
 
 
