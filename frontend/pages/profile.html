@@ -7,7 +7,6 @@
      <link rel="stylesheet" href="../css/style.css">
 </head>
 
-<body>
     <body class="profile">
         <header class="dashboard-header">
         <h1>Competency Tracker</h1>
@@ -42,14 +41,21 @@
             <p><strong>Email:</strong> nogwandanaxo@mngha.med.sa</p>    <!-- only work email is permitted for use-->
         </section>
 
+        <form class="profile-form">
         <section class="editable-info">
-            <p><strong>Phone Number:</strong> 055866960</p>
+            <h3>Contact Information</h3>
+            <div class="form-group">
+                <label for="phone">Phone Number:</label>
+                <input type="tel" id="phone" name="phone" value="055866960" disabled>
+            </div>    
         </section>
 
-        <button type="button" class="edit-profile-btn">Edit Profile</button>
-        <button type="submit" class="save-changes-btn">Save Changes</button>
-
+        <div class="form-actions">
+            <button type="button" class="btn-edit">Edit Profile</button>
+            <button type="submit" class="btn-save hidden">Save Changes</button>
+            <button type="button" class="btn-cancel hidden">Cancel</button>
+        </div>
+        </form>
     </main>
-
 </body>
 </html>
