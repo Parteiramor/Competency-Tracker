@@ -27,7 +27,8 @@ body {
 body.dashboard,
 body.competencies,
 body.competency-details,
-body.profile {
+body.profile,
+body.settings {
     width: 100%;
     margin: 0;
 }
